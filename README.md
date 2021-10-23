@@ -2,12 +2,12 @@
 
 ## Workshop Guide
 
-[Workshop Guide](https://www.dropbox.com/scl/fi/ock4fahhesc0gq7y71b6d/APIs-and-Backend-Development-with-Node.js-and-MongoDB.paper?dl=0&rlkey=x8amajxmhy7jplk9wyvhnlg8i) (contains more in-depth examples!)
+[Workshop Guide](https://www.dropbox.com/scl/fi/ock4fahhesc0gq7y71b6d/APIs-and-Backend-Development-with-Node.js-and-MongoDB.paper?dl=0&rlkey=x1lhsgzzp79dw0lyr8z9ca9kn) (contains more in-depth examples!)
 
 ## Setup
 
 1. [Install Node.js](https://nodejs.org/en/download/)
-2. In your terminal, run `git clone https://github.com/baileysegall/api-demo.git` **or** download the ZIP file (if you don't have git installed) by clicking on the green **Code** button on the top right of the repository and clicking on Download ZIP File.
+2. In your terminal, run `git clone https://github.com/baileysegall/api-demo-starter.git` **or** download the ZIP file (if you don't have git installed) by clicking on the green **Code** button on the top right of the repository and clicking on Download ZIP File.
 3. Run `npm install` in the root project directory to install dependencies we need to run the code.
 
 ## Running the app
