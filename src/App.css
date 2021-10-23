@@ -1,3 +1,4 @@
+/* Handles the overall page */
 .main{
   height: 100vh;
   width: 100vw;
@@ -5,17 +6,19 @@
 
   position: absolute;
 
+  /* Uses flex to arrange components */
   display:flex;
   flex-direction: column;
   justify-content:center;
   align-items: center;
 
+  /* Font */
   color: #cb997e;
   font-size: 100px;
   font-weight: bolder;
 }
 
-
+/* Handles button aesthetics */
 .button{
   background-color:#6b705c;
   color: #ffffff;
@@ -27,6 +30,8 @@
   width: 10vw;
 }
 
+/* renders the button when imageg is present
+    Simply changes the margins */
 .button-with-image{
   background-color:#6b705c;
   color: #ffffff;
@@ -41,27 +46,31 @@
   width: 10vw;
 }
 
+/* Handles image appearance and location */
 .image{
   height: 50vh;
   width: auto;
   display: block;
 }
 
+/* title */
 .title{
   height: 6vh;
 }
 
+/* different image height when image */
 .title-with-image{
   height: 5vh;
 }
 
-
+/* container which holds the overlay */
 .container {
   position: relative;
   height: 50vh;
   width: auto;
 }
 
+/* the actual overlay color */
 .overlay {
   position: absolute;
   top: 0;
@@ -75,10 +84,12 @@
   background-color: #ffe8d6;
 }
 
+/* changes opacity once hover */
 .container:hover .overlay {
   opacity: 0.8;
 }
 
+/* overlay text */
 .text {
   color: #cb997e;
   font-size: 40px;
